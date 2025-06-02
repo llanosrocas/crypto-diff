@@ -1,0 +1,35 @@
+{
+  "name": "crypto-diff",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fmt": "prettier ./src --write"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.17.7",
+    "@nivo/core": "^0.89.1",
+    "@nivo/line": "^0.89.1",
+    "@preact/signals": "^2.0.4",
+    "@tanstack/react-query": "^5.75.5",
+    "preact": "^10.25.3",
+    "preact-iso": "^2.9.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.3",
+    "@types/node": "^22.15.3",
+    "eslint": "^9.25.1",
+    "eslint-config-preact": "^1.5.0",
+    "postcss": "^8.5.3",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.0.4"
+  },
+  "eslintConfig": {
+    "extends": "preact"
+  }
+}
